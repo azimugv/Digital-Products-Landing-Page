@@ -2,3 +2,24 @@
     margin: 0;
     padding: 0;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.box{
+    padding: 20px;
+    background-color: red;
+    width: 110px;
+}
+.box2{
+    padding: 20px;
+    background-color: rgb(43, 255, 0);
+    width: 110px;
+}
+.box3{
+    padding: 20px;
+    background-color: rgb(76, 0, 255);
+    width: 110px;
+}
