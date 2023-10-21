@@ -33,3 +33,37 @@
 .menus >ul>li>a:hover{
     color: aqua;
 }
+
+/* Banner */
+
+.banner-img{
+    width: 300px;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../images/background.png'), linear-gradient(45deg,#202020, #000);
+    color: #fff;
+}
+
+.title{
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.description{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
