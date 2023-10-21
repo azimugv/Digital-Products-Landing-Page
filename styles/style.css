@@ -46,6 +46,9 @@
     align-items: center;
     height: 100vh;
     background-image: url('../images/background.png'), linear-gradient(45deg,#202020, #000);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #fff;
 }
 
@@ -66,4 +69,26 @@
     color: #fff;
     border: none;
     border-radius: 5px;
+}
+
+section>h1{
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 40px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-title{
+    font-size: 40px;
+}
+
+.about-description{
+    font-size: 18px;
+    margin: 10px 0px;
 }
