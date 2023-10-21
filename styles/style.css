@@ -127,3 +127,50 @@ section>h1{
 .service-title{
     padding: 20px;
 }
+
+/* Footer */
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 50px 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    
+}
+.footer-title{
+    margin-bottom: 30px;
+}
+.footer-col-1{
+    width: 300px;
+}
+.footer-col-1>img{
+    width: 120px;
+    padding-bottom: 20px;
+}
+.footer-menu{
+    list-style: none;
+    text-decoration: none;
+}
+.footer-menu>li{
+    padding-bottom: 10px;
+}
+.footer-menu>li>a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+hr{
+    margin-top: 60px;
+}
+.footer-contact>p{
+    padding-bottom: 10px;
+}
+.footer-text{
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
